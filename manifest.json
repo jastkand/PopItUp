@@ -7,10 +7,5 @@
         "default_icon"  : "images/icon19.png",
         "default_title" : "Pop It Up",
         "default_popup" : "pages/popup.html"
-    },
-    "content_scripts": [
-        {
-            "js": ["thirdparty/jquery.min.js"]
-        }
-    ]
+    }
 }
