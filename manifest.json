@@ -1,0 +1,10 @@
+{
+  "name": "DocsForm",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Just for fun",
+  "browser_action": {
+    "default_icon": "images/icon19.png",
+    "default_popup": "popup.html"
+  }
+}
