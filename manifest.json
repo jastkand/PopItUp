@@ -1,8 +1,8 @@
 {
-  "name": "DocsForm",
-  "version": "1.0.0",
+  "name": "Pop It Up",
+  "version": "1.0.0.0",
   "manifest_version": 2,
-  "description": "Just for fun",
+  "description": "Chrome extension that lets user to show his preconfigured pages at popup",
   "browser_action": {
     "default_icon": "images/icon19.png",
     "default_popup": "popup.html"
