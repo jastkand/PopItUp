@@ -2,18 +2,12 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../styles.css">
-    <script type="text/javascript">
-    function resizeMe()
-    {
-        height = document.getElementById("content").offsetHeight;
-        width  = document.getElementById("content").offsetWidth;
-        self.resizeTo(width+20, height+100);
-    }
-    </script>
+    <script type="text/javascript" src="../thirdparty/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/popup.js"></script>
 </head>
-<body onload="resizeMe();">
-<div id="content">
-	<iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dGZxLVBTb0JKSVd1ZU5NdGp5elBENVE6MQ#gid=0"></iframe>
-</div>
+<body>
+    <div id="content">
+        <iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dGZxLVBTb0JKSVd1ZU5NdGp5elBENVE6MQ#gid=0"></iframe>
+    </div>
 </body>
 </html>
