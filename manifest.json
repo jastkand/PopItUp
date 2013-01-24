@@ -4,7 +4,13 @@
     "manifest_version": 2,
     "description": "Chrome extension that lets user to show his preconfigured pages at popup",
     "browser_action": {
-        "default_icon": "images/icon19.png",
-        "default_popup": "popup.html"
-    }
+        "default_icon"  : "images/icon19.png",
+        "default_title" : "Pop It Up",
+        "default_popup" : "pages/popup.html"
+    },
+    "content_scripts": [
+        {
+            "js": ["thirdparty/jquery.min.js"]
+        }
+    ]
 }
