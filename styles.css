@@ -3,13 +3,17 @@
     margin: 0;
 }
 
+body {
+    padding: 20px;
+}
+
 #content {
     width: 500px;
-    height: 550px
+    height: 550px;
 }
 
 iframe {
     border: 0;
     width: 500px;
-    height: 550px
+    height: 550px;
 }
