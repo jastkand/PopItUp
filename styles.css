@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 500px;
+    height: 550px
+}
+
+iframe {
+    border: 0;
+    width: 500px;
+    height: 550px
+}
